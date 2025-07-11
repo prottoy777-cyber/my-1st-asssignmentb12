@@ -45,3 +45,18 @@ header{
     font-size: 34px;
     font-weight: 900;
 }
+
+/* banner section */
+.hero_aria .banner_section{
+    padding: 158px 118px;
+    text-align: center;
+}
+
+
+.hero_aria .banner_section h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 37px;
+    color: #252432;
+}
