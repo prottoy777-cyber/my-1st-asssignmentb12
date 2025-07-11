@@ -21,3 +21,27 @@ body{
     border: none;
     cursor: pointer;
 }
+
+/* header section */
+
+header{
+    background: url(images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* hero aria */
+
+.hero_aria{
+    padding: 50px 150px 0 150px;
+}
+.hero_aria .navbar_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_aria .navbar_section h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+}
