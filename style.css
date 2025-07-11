@@ -6,4 +6,18 @@ body{
     background: #dfe6e9b4;
 }
 
-.
+.primary_color{
+    color:#4E47FF;
+}
+
+.btn_primary{
+
+    background:#4E47FF ;
+    padding: 12px 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
