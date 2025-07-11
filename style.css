@@ -127,3 +127,191 @@ header{
     color: rgba(37, 36, 50, 0.5);
 
 }
+
+.lets_et_in_touch_section{
+    margin: 93px 160px 14px;
+}
+.lets_et_in_touch_section .parent .child{
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    align-items: center;
+}
+.lets_et_in_touch_section .child h1{
+    font-family:"Raleway", sans-serif;
+    font-size: 92px;
+    font-weight: bold;
+}
+
+.lets_et_in_touch_section .child form{
+    display: flex;
+    flex-direction: column;
+    font-family:"inter", sans-serif  ;
+    padding: 71px 0;
+}
+.lets_et_in_touch_section .child form input{
+    padding: 20px;
+    width: 497px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    color:  rgba(37, 36, 50, 0.5);
+    border: 1px solid  rgba(214, 221, 237, 1);
+    border-radius: 10px;
+}
+.lets_et_in_touch_section .child form label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.lets_et_in_touch_section .child form textarea{
+    padding: 20px;
+    width: 497px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    color:  rgba(37, 36, 50, 0.5);
+    border: 1px solid  rgba(214, 221, 237, 1);
+    border-radius: 10px;
+}
+
+/* footer section */
+
+footer{
+    background: #ffff;
+    font-family: "inter", sans-serif ;
+    text-align: center;
+}
+footer .parent{
+    padding: 104px 455px;
+}
+footer .parent h1{
+    font-size: 100px;
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+footer .parent p{
+    font-size: 18px;
+    color: #8987A1;
+    font-weight: 400;
+    padding: 8px 22px 20px;
+
+}
+footer .parent ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+}
+footer .parent ul li{
+list-style: none;
+
+}
+footer .parent ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8987A1;
+    font-weight: 400;
+
+}
+
+/* review aria */
+
+.review_aria{
+    padding: 0px 160px 0;
+}
+.review_aria .card_parent{
+
+    text-align: center;
+}
+.review_aria .card_parent h2{
+    font-family:  "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.review_aria .card_parent .card_child{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.review_aria .card_parent .card_child .card{
+    width: 366px;
+    height: 243px;
+     background: #ffff;
+     font-family: "Inter", sans-serif;
+     padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.review_aria .card_parent .card_child .star{
+    padding-bottom: 24px;
+}
+.review_aria .card_parent .card h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.review_aria .card_parent .card p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+.review_aria .card .parson{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    
+    
+
+}
+.review_aria .card .parson img{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+    
+}
+.review_aria .parson .text{
+    margin-top: 22px;
+}
+
+.review_aria .parson .text h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+}
+.review_aria .parson .text p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8987a191;
+    margin-top: 5px;
+}
+
+.focus_aria{
+    padding: 137px 160px 0;
+}
+.focus_aria .focus_parent{
+    background: #ffff;
+    padding: 71px 151px;
+    text-align: center;
+      font-family: "Inter", sans-serif;
+      border-radius: 10px;
+}
+.focus_aria .focus_parent h2{
+    font-size: 50px;
+    font-weight: bold;
+    counter-reset: rgba(0, 0, 0, 1);
+    padding-bottom: 20px;
+}
+.focus_aria .focus_parent p{
+  
+    font-size: 16px;
+    font-weight: 400;
+    counter-reset: rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+}
+.focus_aria .focus_parent .btn{
+  
+    margin-bottom: 20px;
+}
+.focus_aria .focus_parent img{
+    border-radius: 48px;
+}
